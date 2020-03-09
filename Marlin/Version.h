@@ -28,20 +28,20 @@
 /**
  * Marlin release version identifier
  */
-//#define SHORT_BUILD_VERSION "2.0.4.4"
+#define SHORT_BUILD_VERSION "Doug cloned 2.0.x"
 
 /**
  * Verbose version identifier which should contain a reference to the location
  * from where the binary was downloaded or the source code was compiled.
  */
-//#define DETAILED_BUILD_VERSION SHORT_BUILD_VERSION " (Github)"
+#define DETAILED_BUILD_VERSION SHORT_BUILD_VERSION " " __DATE__
 
 /**
  * The STRING_DISTRIBUTION_DATE represents when the binary file was built,
  * here we define this default string as the date where the latest release
  * version was tagged.
  */
-//#define STRING_DISTRIBUTION_DATE "2020-01-31"
+//#define STRING_DISTRIBUTION_DATE __TIME__
 
 /**
  * Defines a generic printer name to be output to the LCD after booting Marlin.
@@ -55,7 +55,7 @@
  * Marlin repository.
  */
 //#define SOURCE_CODE_URL "https://github.com/MarlinFirmware/Marlin"
-
+ 
 /**
  * Default generic printer UUID.
  */
@@ -66,6 +66,7 @@
  * documentation about a specific Marlin release.
  */
 //#define WEBSITE_URL "http://marlinfw.org"
+#define WEBSITE_URL "2.0.x " __DATE__ " " __TIME__  // Temporary by Doug
 
 /**
  * Set the vendor info the serial USB interface, if changable
