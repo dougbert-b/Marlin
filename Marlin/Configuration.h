@@ -1109,7 +1109,7 @@
 
 // Travel limits (mm) after homing, corresponding to endstop positions.
 #define X_MIN_POS -17   // Doug Hemera with additional X stop shim, was -33 for stock A8 extruder
-#define Y_MIN_POS -0   // Doug corect for Hemera and stock
+#define Y_MIN_POS -0   // Doug correct for Hemera and stock
 #define Z_MIN_POS 0
 #define X_MAX_POS 236      // Doug Can go past right end of bed
 #define Y_MAX_POS Y_BED_SIZE  // Doug No additional movement possible
