@@ -339,7 +339,7 @@
  * The fan will turn on automatically whenever any stepper is enabled
  * and turn off after a set period after all steppers are turned off.
  */
-#define USE_CONTROLLER_FAN  // Duog: Use neopixel pin to control fan
+#define USE_CONTROLLER_FAN  // Doug: Use neopixel pin to control fan
 #if ENABLED(USE_CONTROLLER_FAN)
   #define CONTROLLER_FAN_PIN NEOPIXEL_PIN           // Set a custom pin for the controller fan
   #define CONTROLLERFAN_SECS 60             // Duration in seconds for the fan to run after all motors are disabled
