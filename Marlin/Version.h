@@ -28,27 +28,27 @@
 /**
  * Marlin release version identifier
  */
-//#define SHORT_BUILD_VERSION "bugfix-2.1.x"
+#define SHORT_BUILD_VERSION "Doug cloned 2.1.2.5"
 
 /**
  * Verbose version identifier which should contain a reference to the location
  * from where the binary was downloaded or the source code was compiled.
  */
-//#define DETAILED_BUILD_VERSION SHORT_BUILD_VERSION
+#define DETAILED_BUILD_VERSION SHORT_BUILD_VERSION " " __DATE__
 
 /**
  * The STRING_DISTRIBUTION_DATE represents when the binary file was built,
  * here we define this default string as the date where the latest release
  * version was tagged.
  */
-//#define STRING_DISTRIBUTION_DATE "2025-09-11"
+#define STRING_DISTRIBUTION_DATE "2024-11-18"
 
 /**
  * The protocol for communication to the host. Protocol indicates communication
  * standards such as the use of ASCII, "echo:" and "error:" line prefixes, etc.
  * (Other behaviors are given by the firmware version and capabilities report.)
  */
-//#define PROTOCOL_VERSION "1.0"
+#define PROTOCOL_VERSION "1.0"
 
 /**
  * Defines a generic printer name to be output to the LCD after booting Marlin.
